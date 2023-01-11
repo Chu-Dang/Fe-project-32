@@ -1,0 +1,102 @@
+a[href]{
+    color: red;
+}    
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: auto; /*Can giua khoi phan tu*/
+}
+/*---- Header./Start ----*/
+
+.top-bar {
+    background-color: #0a59cc;
+}
+.wrap-topbar {
+    display: flex;
+    align-items: center;
+    height: 42px;
+}
+.topbar-left {
+    width: 50%;
+}
+.topbar-left a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none; /*bo dau gach chan the a*/
+}
+.topbar-left a:hover {
+    /* :hover --- di chuot qua phan tu */
+    text-decoration: underline;
+}
+
+.topbar-right {
+    width: 50%;
+    background-color: green;
+    /* height: 42px; */
+}
+.list-topbar {
+    display: flex;
+    justify-content: space-between;
+}
+.list-topbar li {
+    list-style: none; /* bo dau cham o li*/
+}
+
+.list-topbar li img{
+    width: 18px;
+    height: 18px;
+    filter: invert(1);/*dao mau*/
+}
+.list-topbar li a{
+
+
+}
+
+.list-topbar li 
+
+
+
+
+
+
+
+
+
+
+
+.header-main {
+    height: 123px;
+    background-color: #2579f2;
+}
+.header-bottom {
+    height: 54px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---- Main./Start ----*/
+.main {
+    background-color: pink;
+    height: 1000px;
+    width: 100%;
+}
+
+/*--- Footer./Start ---*/
+.footer {
+    height: 350px;
+    width: 100%;
+    background-color: #000;
+}
