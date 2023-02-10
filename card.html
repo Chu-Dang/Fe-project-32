@@ -1,0 +1,104 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- import fontawesome -->
+    <link rel="stylesheet" href="./lib/fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./lib/fontawesome/css/brands.min.css" />
+    <link rel="stylesheet" href="./lib/fontawesome/css/solid.min.css" />
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-color: #e7ebef;
+      }
+      .item-card {
+        max-width: 400px;
+        background-color: red;
+        height: 500px;
+        margin: auto;
+        margin-top: 100px;
+      }
+      .top-card {
+        width: 100%;
+        height: 100px;
+        background-color: #fff;
+        display: flex;
+      }
+      .avt-card {
+        height: 100px;
+        width: 90%;
+        display: flex;
+      }
+      .icon-dots {
+        height: 100px;
+        width: 10%;
+        font-size: 16px;
+      }
+      .img-avt {
+        height: 100px;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .img-avt p {
+        width: 40px;
+        height: 40px;
+        background-color: #f44336;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 17px;
+      }
+      .content-avt {
+        height: 100px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 20px;
+      }
+      .title-avt {
+        font-size: 16px;
+        color: #414141;
+        margin-bottom: 5px;
+      }
+      .date-avt {
+        font-size: 13px;
+        color: gray;
+      }
+      .icon-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="item-card">
+      <div class="top-card">
+        <div class="avt-card">
+          <div class="img-avt">
+            <p>R</p>
+          </div>
+          <div class="content-avt">
+            <h6 class="title-avt">Nguyen Van A</h6>
+            <p class="date-avt">10-01-2023</p>
+          </div>
+        </div>
+        <div class="icon-dots">
+          <i class="fa-regular fa-ellipsis-vertical"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
